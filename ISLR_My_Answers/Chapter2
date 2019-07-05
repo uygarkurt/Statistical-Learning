@@ -14,4 +14,27 @@ have a very significant impact. Because of extremely large predictors flexible m
 
 2c) same logic applies.
 
-3) ![](Images/Graph-3.png)
+3) Check image Chapter2Q3 at images. Explanation of the curves can be found at the book.
+
+4) You just have to find examples.
+
+5) We can actually use flexible models and reduce overfitting by using methods such as regularizatoin and make it less flexible up to the
+point that it becomes a viable solution. In general if we have small training set and large number of predictors we use less flexible
+models. If we have large training set and small number of predictors we use more flexible model.
+
+6) In parametric approach we make an assumption on the shape of f and write the function accordingly. Then we start to train, fit our model
+to the training set. Problem reduced from finding f to finding the parameters.
+
+In non-parametric approach we don't make assumptions about the functoin. Hence we can use greater variety of shapes and end up with a more
+precise result.
+
+Parametric functions are easier to estimate since we just find parameters. Non-parametric approach requires more data and harder to
+estimate compared to parametric approach but gives better results.
+
+7a) Basic calculation to find distance, square add take square root.
+
+7b) Closes observation to the origin is 5th one. It is green, so when K=1 our point should be green.
+
+7c) Closes three obserevations are 2, 5, 6. Two of them are red, one is green. So our point should be red.
+
+7d) As K becomes larger, Bayes decision boundry becomes linear. In highly non-linear data we would expect to use a small K value.
