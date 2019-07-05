@@ -1,0 +1,16 @@
+1a) Flexible model should be used. We have extremely large training set, more flexible model will have less MSE up to some level.
+One should be careful about overfitting.
+
+1b) Less flexible model should be used. We have few observations, very unflexible model such as straight line and flexible model won't
+have a very significant impact. Because of extremely large predictors flexible model has a high chance to overfit.
+
+1c) Flexible model. If their correlation is non-linear, more flexible model would fit better to training set.
+
+1d) Less flexible model. If we have high irreducable error we may force the model to fit the data and end up with overfit.
+
+2a) n=500, p=3 Regression because we are working with CEO salary, numerical. Inference because we relate the outcome with p's.
+
+2b) n=20, p=13 Classification because outcome is not numerical, 0 or 1 in this case. Prediction our aim is to predict if it is 0 or 1.
+
+2c) same logic applies.
+
